@@ -50,6 +50,31 @@ Built using **React Native + Expo + Three.js**, EduAR brings education to life b
 
 ---
 
-## 🗂 Folder Structure (Simplified)
-<pre> ``` EduAR/ ├── app/ # Navigation & screen routing │ ├── (auth)/ # Login and signup screens │ ├── (tabs)/ # Home, Topics, Settings │ └── index.tsx # Startup logic with redirects ├── components/ # Reusable UI + AR/3D components ├── contexts/ # Theme and auth providers ├── store/ # Zustand state for AR models ├── public/models/ # 3D .glb model files ├── assets/ # Static assets (images, icons) ├── hooks/ # Custom hooks ├── types/ # Type declarations ├── app.json # Expo config ├── package.json # Dependencies and scripts └── tsconfig.json # TypeScript config ``` </pre>
+
+---
+
+## 📸 Model Features
+
+Each AR model includes:
+- **Name, Description, and Category**
+- **Marker Image** for identification
+- Optional **Animation** (rotation)
+- A list of **Labeled Components** for learning
+
+---
+
+## 🔧 Installation
+
+### 📦 Prerequisites
+- Node.js & npm
+- Expo CLI: `npm install -g expo-cli`
+
+### 🚀 Running the App
+
+```bash
+git clone https://github.com/Shovik-2004/edu-ar.git
+cd edu-ar
+npm install
+npm run dev
+
 
