@@ -52,4 +52,6 @@ Built using **React Native + Expo + Three.js**, EduAR brings education to life b
 
 ## 🗂 Folder Structure (Simplified)
 
+EduAR/ ├── app/ # Navigation & screen routing │ ├── (auth)/ # Login and signup screens │ ├── (tabs)/ # Home, Topics, Settings │ └── index.tsx # Startup logic with redirects ├── components/ # Reusable UI + AR/3D components ├── contexts/ # Theme and auth providers ├── store/ # Zustand state for AR models ├── public/models/ # 3D .glb model files ├── assets/ # Static assets (images, icons) ├── hooks/ # Custom hooks ├── types/ # Type declarations ├── app.json # Expo config ├── package.json # Dependencies and scripts └── tsconfig.json # TypeScript config
+
 
